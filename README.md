@@ -2,5 +2,5 @@
 
 You can get a new "no" in every refresh or click
 
-- En: 
-- Tr: 
+- En: https://cdn.rawgit.com/hasantayyar/you_can_say_no/master/no.html
+- Tr: https://cdn.rawgit.com/hasantayyar/you_can_say_no/master/no_tr.html
