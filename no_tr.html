@@ -1,16 +1,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  *{ padding:0; margin:0; border:0;}
-  #no{width:300px; margin:80px auto; cursor:pointer;padding:20px; border-radius:6px;background:#fca; text-align:center; font-size:2em; text-shadow:1px 1px 1px #333; font-family:Helvetica, sans-serif;}
-</style>
+<style>*{ padding:0; margin:0; border:0;}#no{width:300px; margin:80px auto; cursor:pointer;padding:20px; border-radius:6px;background:#fca; text-align:center; font-size:2em; text-shadow:1px 1px 1px #333; font-family:Helvetica, sans-serif;}</style>
 </head>
 <body>
-
 <div onclick="next()" id="no"></div>
-
-
 <script>
   var nos = [
   "Asla",
@@ -24,19 +18,21 @@
   "Katiyen olmaz",
   "Hayır hayır hayır",
   "Hayır üzgünüm",
-  "Yo hayır"
+  "Yo hayır",
+  "Hayır istemiyorum", 
+  "Benim kararım hayır.",
+  "Hayır çünkü istemiyorum",
+  "Hayır ve bir nedeni yok"
   ];
   var i = Math.floor(Math.random()*100 % nos.length);
-  var elem = document.getElementById("no");
-  elem.innerHTML = nos[i];
+  var e = document.getElementById("no");
+  e.innerHTML = nos[i];
 
   function next(){
     i = i + 1;
     if(i >= nos.length) i = 0;
-    elem.innerHTML = nos[i];
+    e.innerHTML = nos[i];
   }
-
 </script>
-
 </body>
 </html>
