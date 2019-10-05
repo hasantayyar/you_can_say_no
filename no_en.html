@@ -7,9 +7,7 @@
   </style>
 </head>
 <body>
-
   <div onclick="next()" id="no"></div>
-
   <script>
     var nos = [
     "Absolutely not",
@@ -49,19 +47,15 @@
     "What! No!",
     "Sorry but no!",
     "Ni",
-    "NEIN"
+    "NEIN",
+    "Hell No",
+    "Damn No"
     ];
-    var i = Math.floor(Math.random()*100 % nos.length);
     var elem = document.getElementById("no");
-    elem.innerHTML = nos[i];
-
     function next(){
-      i = i + 1;
-      if(i >= nos.length) i = 0;
-      elem.innerHTML = nos[i];
+      elem.innerHTML = nos[Math.floor(Math.random() * nos.length)];
     }
-
+    next();
   </script>
-
 </body>
 </html>
