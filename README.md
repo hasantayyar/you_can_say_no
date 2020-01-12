@@ -2,5 +2,6 @@
 
 You can get a new "no" in every refresh or click
 
-- En: [no_en.html](https://goo.gl/zhMB7T)
-- Tr: [no_tr.html](https://goo.gl/hmN4TW)
+- English: [no_en.html](https://goo.gl/zhMB7T)
+- Türkçe: [no_tr.html](https://goo.gl/hmN4TW)
+- Polski: [no_tr.html](https://hasantayyar.github.io/you_can_say_no/no_pl.html)
